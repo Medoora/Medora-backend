@@ -1,0 +1,19 @@
+# Secrets
+.env
+.env.local
+.env*.local
+*.pem
+*.key
+service-account.json
+.vercel
+.env*
+
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
