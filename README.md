@@ -18,6 +18,27 @@ Medora Backend is a serverless API built for the Medora medical assistant app. I
 - 📊 **Personalized Responses** - Uses patient medical records from Firestore
 - 🔄 **CORS Enabled** - Ready for cross-origin requests from Expo apps
 - ⚡ **Fast Responses** - Optimized with gpt-4o-mini for quick replies
+## Project Structure:
+```bash
+medora-backend/
+├── api/                                           
+│   ├── chat-working.ts     # Working reference endpoint     
+│   ├── chat-simple.ts      # Simplified version for testing
+│   ├── test-simple.ts      # Basic connectivity test
+│
+├── lib/                         
+│   ├── config.ts               # Firebase Admin initialization
+│   └── user-data.ts              # User data fetching utilities
+│
+├── .env.example                  # Environment variables template
+├── package.json                  # Dependencies and scripts
+├── tsconfig.json                 # TypeScript configuration
+├── vercel.json                   # Vercel deployment config
+└── README.md                     # Project documentation
+```
+
+
+
 
 # 📡 API Endpoints
 ## 1. Main Endpoints
