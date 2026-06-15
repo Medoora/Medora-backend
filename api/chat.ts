@@ -1,9 +1,9 @@
 // api/chat.ts
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { adminDb } from '../lib/firebase/firebase-admin';
-import { createSystemPrompt, formatUserDataForPrompt } from "../lib/prompt/prompt";
-import { getOpenAIModel, openAIConfig } from '../lib/ai/openai-config';
-import { availableModels } from '../lib/ai/model-config';
+import { adminDb } from '../lib/firebase/firebase-admin.js';
+import { createSystemPrompt, formatUserDataForPrompt } from "../lib/prompt/prompt.js";
+import { getOpenAIModel, openAIConfig } from '../lib/ai/openai-config.js';
+import { availableModels } from '../lib/ai/model-config.js';
 
 export default async function handler(
   req: NextApiRequest,
