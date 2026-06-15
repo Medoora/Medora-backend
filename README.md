@@ -76,4 +76,35 @@ Request body:
   ]
 }
 ```
+Response:
+```base
+Hello Subhro! Here's a summary of your medical data:
 
+### 📋 Medical Information:
+- **Blood Type:** B+
+- **Height:** 166 cm
+- **Weight:** 90 kg
+- **Allergies:** Peanuts
+- **Current Medications:** None listed
+- **Chronic Conditions:** None listed
+- **Past Surgeries:** Nose surgery (scheduled for 2025)
+
+### 📅 Insurance Details:
+- **Provider:** Bajaj
+- **Policy Number:** 2134
+- **Type:** Employer
+- **Coverage Valid Until:** December 12,
+2004 (please check for an update)
+
+### 📇 Identification:
+- **National ID Number:** 123243
+- **Expiry Date:** February 11,
+2023 (please ensure renewal if necessary)
+
+### 📑 Documents:
+- Birth certificate, medical history, insurance card (front), Aadhaar card
+
+If you need more detailed information or documents, let me know, and I can provide a PDF. 
+
+**Disclaimer:** This information is provided for your personal reference. For medical advice, please consult a healthcare professional.
+```
