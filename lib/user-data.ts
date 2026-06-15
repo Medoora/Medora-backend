@@ -1,5 +1,5 @@
 // lib/user-data.ts
-import { db, getDB } from './config';
+import { db, getDB } from './firebase/config';
 
 export interface UserMedicalData {
   personalInfo: any;

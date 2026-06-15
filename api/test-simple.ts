@@ -1,5 +1,5 @@
 // api/get-user-data.ts
-import { getDB } from '../lib/config';
+import { getDB } from '../lib/firebase/config';
 
 export default async function handler(req: any, res: any) {
   res.setHeader('Access-Control-Allow-Origin', '*');

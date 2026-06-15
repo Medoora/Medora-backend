@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vercel dev",
+    "dev": "next dev",
     "deploy": "vercel --prod"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^3.0.71",
+    "ai": "^6.0.205",
     "firebase-admin": "^12.0.0"
   },
   "devDependencies": {
