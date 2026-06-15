@@ -22,7 +22,7 @@ Medora Backend is a serverless API built for the Medora medical assistant app. I
 ```bash
 medora-backend/
 ├── api/                                           
-│   ├── chat-working.ts     # Working reference endpoint     
+│   ├── chat.ts              # working api route access firebase-admin db(main route)
 │   ├── chat-simple.ts      # Simplified version for testing
 │   ├── test-simple.ts      # Basic connectivity test
 │
@@ -62,21 +62,18 @@ Response:
 ```
 
 ## 2.Test Endpoints
-### 2.2 GET /api/test-simple
+### 2.2 POST /api/chat
 Basic connectivity test.
-Response:
+Request body:
 ```bash
 {
-  "status": "ok",
-  "message": "Simple test endpoint works!",
-  "timestamp": "2026-05-29T10:00:00.000Z",
-  "environment": {
-    "hasFirebaseProject": true,
-    "hasFirebaseEmail": true,
-    "hasFirebaseKey": true,
-    "hasOpenAIKey": true,
-    "nodeVersion": "v20.10.0"
-  }
+  "userId": "use_id",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello, tell me about my medical data"
+    }
+  ]
 }
 ```
 
